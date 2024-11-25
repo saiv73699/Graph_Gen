@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Graph</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+    <h2>Dynamic Graph Based on User Input</h2>
+    <form id="dataForm">
+        <label for="critical">Critical:</label>
+        <input type="number" id="critical" required>
+        <label for="high">High:</label>
+        <input type="number" id="high" required>
+        <label for="medium">Medium:</label>
+        <input type="number" id="medium" required>
+        <label for="low">Low:</label>
+        <input type="number" id="low" required>
+        <label for="informational">Informational:</label>
+        <input type="number" id="informational" required>
+        <button type="submit">Generate Graph</button>
+    </form>
+    <canvas id="myChart" width="400" height="200"></canvas>
+
+    <script src="./app.js"></script>
+</body>
+</html>

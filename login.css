@@ -1,0 +1,50 @@
+body{
+    overflow: hidden;
+}
+.page{
+     background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230928/pngtree-a-graph-showing-graphing-statistics-image_13300948.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     height: 100%;
+     width:100%;
+     position: fixed;
+}
+marquee p{
+    color: magenta;
+    font-size: 70px;
+    font-weight: bolder;
+}
+.form{
+    border: solid 5px none;
+    border-radius: 5%;
+    height: 280px;
+    width: 300px;
+    font-family: sans-serif;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+.form input{
+    height: 30px;
+    width: 280px;
+}
+.form p{
+    font-size: 28px;
+    color: magenta;
+    font-weight: bolder;
+    position: relative;
+    left: 70px;
+}
+.form label{
+    font-size: 20px;
+    font-weight: bolder;
+    color:black;
+}
+.new{
+    display: inline-flex;
+}
+.new>a{
+    text-decoration: none;
+    color: black;
+}
